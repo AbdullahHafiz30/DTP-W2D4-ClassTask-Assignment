@@ -66,7 +66,7 @@ public class OrderManager {
                 Thread.sleep(2000);
                 order.setOrderStatus(OrderStatus.SHIPPED);
                 log("Order Shipped:\n" + order);
-
+                // this comment is added in the second branch
                 // Simulate delivery delay
                 Thread.sleep(2000);
                 order.setOrderStatus(OrderStatus.DELIVERED);
